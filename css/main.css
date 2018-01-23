@@ -1,0 +1,165 @@
+/*--------------------------------------*/
+/* GLOBAL
+/*--------------------------------------*/
+body, a {
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+a:hover, a:focus {
+  text-decoration: none;
+}
+.container-fluid {
+  max-width: 1200px;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.transition {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+.width-50 {
+  max-width: 50%;
+  width: 100%;
+  display: inline-block;
+  float: left;
+}
+.width-50:nth-child(even) {
+  padding-right: 10px;
+}
+.width-50:nth-child(odd) {
+  padding-left: 10px;
+}
+.title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+.title > h1,
+.required-text {
+  font-family: 'Anton', sans-serif;
+}
+.enquiry-form-input > label {
+  font-size: 19px;
+  line-height: 19px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  font-family: 'Anton', sans-serif;
+}
+.enquiry-form-input > .enquiry-control {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  height: auto;
+  width: 100%;
+  padding: 5px 0px;
+  margin-bottom: 60px;
+  font-size: 19px;
+  line-height: 24px;
+  color: inherit;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #333;
+  border-radius: 0px;
+}
+.enquiry-form-input.message-contact  > .enquiry-control {
+  line-height: 22px;
+  resize: none;
+}
+.enquiry-form-input.underline_error_style.error > .enquiry-control,
+.enquiry-form-input.both_error_style.error > .enquiry-control  {
+  border-bottom: 1px solid #ff0000;
+}
+.enquiry-form-input.label_error_style.error > label,
+.enquiry-form-input.both_error_style.error > label {
+  color: #ff0000;
+}
+.recaptcha > .g-recaptcha {
+  padding: 3px 2px 2px 3px;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  -webkit-transition: border 0.3s ease 0s;
+  transition: border 0.3s ease 0s;
+  margin-left: -3px;
+}
+.recaptcha > .g-recaptcha.error {
+  border: 1px solid #ff0000;
+}
+
+.enquiry-form-message {
+  font-size: 23px;
+  line-height: 29px;
+  font-family: 'Anton', sans-serif;
+}
+.enquiry-form-message a {
+  display: inline-block;
+  margin-top: 30px;
+  border-bottom: 1px solid #333;
+  cursor: pointer;
+  color: #333;
+  font-family: 'Anton', sans-serif;
+}
+.recaptcha {
+  margin-bottom: 60px;
+  display: inline-block;
+}
+.contact-submit-button > .submit-button {
+  font-family: 'Anton', sans-serif;
+  font-size: 22px;
+  line-height: 22px;
+  padding: 10px;
+  margin-bottom: 30px;
+  background-color: transparent;
+  border: 1px solid #000;
+  margin-right: 15px;
+  position: relative;
+  z-index: 20;
+  -webkit-box-shadow: 20px 20px 31px -20px rgba(0,0,0,0.55);
+-moz-box-shadow: 20px 20px 31px -20px rgba(0,0,0,0.55);
+box-shadow: 20px 20px 31px -20px rgba(0,0,0,0.55);
+}
+@media (max-width: 767px) {
+  .width-50 {
+    max-width: 100%;
+    display: inline-block;
+    float: none;
+  }
+  .width-50:nth-child(even) {
+    padding-right: 0px;
+  }
+  .width-50:nth-child(odd) {
+    padding-left: 0px;
+  }
+  .enquiry-form-input, .contact_form .contact-submit-button, .contact_form .required, .contact_form .enquiry-form-message {
+    padding: 0px;
+  }
+  .enquiry-form-input > label {
+    font-size: 16px;
+    line-height: 16px;
+    margin-bottom: 10px;
+  }
+  .enquiry-form-input > .enquiry-control,
+  .recaptcha {
+    margin-bottom: 30px;
+  }
+  .recaptcha {
+   padding: 0px;
+   width: 100%;
+  }
+  .enquiry-form-message {
+    font-size: 22px;
+    line-height: 28px;
+  }
+  .contact_us .contact-submit-button > .submit-button {
+    font-size: 19px;
+    line-height: 19px;
+  }
+}
+@media (max-width: 474px) {
+  .recaptcha > .g-recaptcha {
+    -moz-transform:scale(0.77);
+    -ms-transform:scale(0.77);
+    -o-transform:scale(0.77);
+    -webkit-transform:scale(0.77);
+    transform:scale(0.77);
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.77,M12=0,M21=0,M22=0.77,SizingMethod='auto expand');
+    margin-left: -45px;
+  }
+}

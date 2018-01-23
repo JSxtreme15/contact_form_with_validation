@@ -1,0 +1,18 @@
+/*--------------------------------------*/
+/* CUSTOM FONTS
+/*--------------------------------------*/
+@import url("../fonts/custom-fonts.css");
+/*--------------------------------------*/
+/* TYPOGRAPHY
+/*--------------------------------------*/
+body {
+  font-family: 'cormorant_garamondsemibold';
+  font-size: 20px;
+  line-height: 26px;
+}
+@media (max-width: 767px) {
+  body {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
