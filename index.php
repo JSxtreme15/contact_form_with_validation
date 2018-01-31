@@ -14,7 +14,7 @@
     <div class="title">
       <h1>Responsive Contact Form with Google reCAPTCHA &amp; jQuery validation</h1>
     </div>
-  <form id="enquiry_form" action="contact_form_mailer.php" name="enquiry_form">
+  <form id="enquiry_form" action="inc/contact_form_mailer.php" name="enquiry_form">
 
     <div class="required-text">
     <p>Required <sup>*</sup></p>
@@ -22,7 +22,7 @@
 
   <div class="enquiry-form-input transition width-50 underline_error_style">
   <label for="enquiry_first_name">First Name<sup>*</sup></label>
-  <input class="enquiry-control" type="text" id="inc/enquiry_first_name" name="enquiry_first_name">
+  <input class="enquiry-control" type="text" id="enquiry_first_name" name="enquiry_first_name">
   </div><!-- /.enquiry-form-input -->
 
   <div class="enquiry-form-input transition width-50 label_error_style">
