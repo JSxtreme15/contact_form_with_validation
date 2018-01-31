@@ -22,7 +22,7 @@
 
   <div class="enquiry-form-input transition width-50 underline_error_style">
   <label for="enquiry_first_name">First Name<sup>*</sup></label>
-  <input class="enquiry-control" type="text" id="enquiry_first_name" name="enquiry_first_name">
+  <input class="enquiry-control" type="text" id="inc/enquiry_first_name" name="enquiry_first_name">
   </div><!-- /.enquiry-form-input -->
 
   <div class="enquiry-form-input transition width-50 label_error_style">
